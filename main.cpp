@@ -8,6 +8,6 @@ int main(){
     cin >> year;
     if(year % 400 == 0) cout << "nam nhuan";
     else if(year % 100 != 0 && year % 4 ==0) cout << "nam nhuan";
-    else cout << "nam ko nhuan";
+    else cout << "nam deo nhuan";
     return 0;
 }
